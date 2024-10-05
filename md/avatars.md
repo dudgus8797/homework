@@ -6,8 +6,8 @@
 
 # flex의 html을 쓴이유
 
-1. float과 똑같은 이유로 img를 span으로 묶었다. 하지만 flex의 경우 이미지가 슬비썜이 하신것과 다른 순서로 나온다. 왜인지 모르겠다.
-2. flex는 float보다 유동적이므로 flex-direction을 주어 가로열로 주고 flex-wrap을 사용하여 .container가 좁아질때 줄이 바뀌도록 바꿔주었습니다. justify-content를 space-evenly로 주어 첫번째 요소와 마지막 요소 간격을 기준으로 컨테이너 요소들의 간격을 같게 하였습니다.
+1. float과 똑같은 이유로 img를 span으로 묶었습니다. 하지만 lex-direction: row-reverse를 주었는데 이 경우 이미지가 슬비썜이 하신것과 다른 순서로 나옵니다. 왜인지 모르겠습니다.
+2. 온라인 오프라인 원형의경우 flex-direction을 주어 가로열로 주고 flex-wrap을 사용하여 .container가 좁아질때 줄이 바뀌도록 바꿔주었습니다. justify-content를 space-evenly로 주어 첫번째 요소와 마지막 요소 간격을 기준으로 컨테이너 요소들의 간격을 같게 하였습니다.
 3. position:absolute를 주어 .container를 기준으로 위치를 지정했습니다.
 
 # 공통점
@@ -19,3 +19,4 @@ border값을 주어 테두리를 만들었습니다.
 # 궁금한점
 
 왜 사진이 순서대로 안나올까요?
+이미지에 마우스를 올리면 타이틀이 왜 안나올까요?
