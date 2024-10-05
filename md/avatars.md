@@ -1,12 +1,12 @@
 # float속성의 html을 짠이유
 
 1. img태그에 스크린 리더가 읽을 수 있게 aria-label를 주었습니다.
-2. span요소에 title을 주어 마우스를 올렸을때 온라인인지 오프라인인지 설명을 주었다. img를 감싼 span에 float을 주어 나열하였습니다.
+2. span요소에 title을 주어 마우스를 올렸을때 온라인인지 오프라인인지 설명을 주었습니다. img를 감싼 span에 float을 주어 나열하였습니다.
 3. div를 주어 온라인 오프라인 아이콘을 만들어 postion:absolut를 주어 div기준으로 위치를 지정했다.그후 div#online에 width를 주었다. width와 height를 주어 화면을 늘려도 움직이지 않게 고정하였습니다.
 
 # flex의 html을 쓴이유
 
-1. float과 똑같은 이유로 img를 span으로 묶었습니다. 하지만 lex-direction: row-reverse를 주었는데 이 경우 이미지가 슬비썜이 하신것과 다른 순서로 나옵니다. 왜인지 모르겠습니다.
+1. float과 똑같은 이유로 img를 span으로 묶었습니다. 하지만 flex-direction: row-reverse를 주었는데 이 경우 이미지가 슬비썜이 하신것과 다른 순서로 나옵니다. 왜인지 모르겠습니다.html로 일단 바꾸었지만 css로 바꾸는 방법을 알고싶습니다
 2. 온라인 오프라인 원형의경우 flex-direction을 주어 가로열로 주고 flex-wrap을 사용하여 .container가 좁아질때 줄이 바뀌도록 바꿔주었습니다. justify-content를 space-evenly로 주어 첫번째 요소와 마지막 요소 간격을 기준으로 컨테이너 요소들의 간격을 같게 하였습니다.
 3. position:absolute를 주어 .container를 기준으로 위치를 지정했습니다.
 
