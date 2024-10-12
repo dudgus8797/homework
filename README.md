@@ -1,4 +1,7 @@
 # homework
 
-태킷 프론트엔드 스쿨 12기 과제 저장소
+첫번째 과제
 https://github.com/dudgus8797/homework/blob/main/md/avatars.md
+
+두번째 과제
+https://github.com/dudgus8797/homework/blob/main/md/login.md
