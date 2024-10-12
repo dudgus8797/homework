@@ -1,0 +1,57 @@
+@import "./../../common/base.css";
+@import "./../../common/a11y.css";
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+@media (max-width: 768px) {
+  body {
+    --error-color: red;
+    --font-size: 16px;
+    --font-color: #121212;
+    --padding-block: 1.25rem;
+    --padding-inline: 0.625rem;
+  }
+  .naver-login {
+    font-size: var(--font-size);
+    color: var(--font-size);
+    text-align: center;
+
+    .logo {
+      width: 230px;
+      inline-size: 230px;
+    }
+    .email,
+    .password,
+    .login {
+      width: 100%;
+      inline-size: 100%;
+      padding-top: var(--padding-block);
+      padding-bottom: var(--padding-block);
+      padding-block: var(--padding-block);
+      padding-left: var(--padding-inline);
+      padding-right: var(--padding-inline);
+      padding-inline: var(--padding-inline);
+    }
+    .login {
+      background-color: #03cf5d;
+      inline-size: 100%;
+      color: #fff;
+    }
+  }
+  small {
+    visibility: hidden;
+  }
+  /* :active {
+    color: var(--error-color);
+  } */
+}
